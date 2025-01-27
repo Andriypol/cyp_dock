@@ -9,6 +9,6 @@ module.exports = defineConfig({
     defaultCommandTimeout: 8000, 
     pageLoadTimeout: 30000, 
     supportFile: 'cypress/support/e2e.js', 
-    specPattern: 'cypress/e2e/**/*.cy.js',
+    specPattern: 'cypress/e2e/**/*.cy.js',  
   },
 });
