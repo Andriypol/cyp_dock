@@ -1,39 +1,19 @@
-# Cypress Test Automation Project
+# Cypress Docker Test Automation Project
 
 ![Cypress](https://img.shields.io/badge/Cypress-E2E%20Testing-green?style=flat&logo=cypress)
 
 ## 📌 Project Overview
-This project is an automated testing framework using [Cypress](https://www.cypress.io/) for end-to-end (E2E) testing of web applications. It includes test scripts, configurations, and utilities to ensure a robust testing workflow.
-
-## 🚀 Features
-- Fast, reliable, and flake-resistant testing
-- Supports UI and API testing
-- Automatic waiting for elements
-- Time-travel debugging
-- Screenshot and video recording capabilities
-
-## 📂 Folder Structure
-```
-📦 cypress-project
-├── 📂 cypress
-│   ├── 📂 e2e           # Test cases
-│   ├── 📂 fixtures      # Test data
-│   ├── 📂 support       # Custom commands and helpers
-├── 📂 reports           # Test reports
-├── 📄 cypress.config.js # Cypress configuration
-├── 📄 package.json      # Project dependencies
-└── 📄 README.md         # Project documentation
-```
+Automation Testing Framework using [Cypress](https://www.cypress.io/), Docker and GitHub Actions.
 
 ## 🛠️ Installation
 Ensure you have [Node.js](https://nodejs.org/) installed before proceeding.
-
+#### 1.Clone the repository
 ```sh
-# Clone the repository
-git clone https://github.com/yourusername/cypress-project.git
-cd cypress-project
-
-# Install dependencies
+git clone https://github.com/Andriypol/cyp_dock.git
+cd cyp_dock
+```
+#### 2.Install dependencies
+```sh
 npm install
 ```
 
@@ -71,13 +51,3 @@ export default defineConfig({
 });
 ```
 
-## 🤝 Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature-xyz`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-xyz`)
-5. Open a pull request
-
-## 📝 License
-This project is licensed under the [MIT License](LICENSE).
